@@ -44,9 +44,11 @@ label = [
 > ImageFolder方式数据集加载（PyTorch）
 
 ```python
+data_url = '数据集PATH'
+
 image_datasets = {
     x: datasets.ImageFolder(
-            os.path.join(self.data_url, x),
+            os.path.join(data_url, x),
             self.data_transforms[x]
         ) for x in ['train', 'val']
     }
