@@ -8,7 +8,7 @@
 
 > 
 
-* [40w验证码数据集]() 
+* [40w验证码数据集 大小1.2G](https://pan.baidu.com/s/1GLgRamvXCM0VVLfhkJzQqA) 密码:7tfs
 
 | name | 标签合计 | 总数合计 |
 | :- | :- | :- |
@@ -18,7 +18,7 @@
 | 标签 | | 82 |
 | 统计 | | 393600 |
 
-* [3w验证码轻量数据集]() 
+* [3w验证码轻量数据集 大小50M](https://pan.baidu.com/s/1En4AaxMzMQTkmRGu2P1sJw) 密码:drve
 
 | name | 标签合计 | 总数合计 |
 | :- | :- | :- |
