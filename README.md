@@ -6,6 +6,8 @@
 
 ## 验证码数据集（原创）
 
+> 
+
 * [40w验证码数据集]() 
 
 | name | 标签合计 | 总数合计 |
@@ -16,7 +18,7 @@
 | 标签 | | 82 |
 | 统计 | | 393600 |
 
-* [3w验证码数据集]() 
+* [3w验证码轻量数据集]() 
 
 | name | 标签合计 | 总数合计 |
 | :- | :- | :- |
@@ -25,6 +27,8 @@
 | 测试集 | 120 | 9840 |
 | 标签 | | 82 |
 | 统计 | | 29520 |
+
+> 标签分类情况
 
 ```python
 label = [
@@ -35,4 +39,29 @@ label = [
     'W', 'X', 'Y', 'Z',
     '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '-', '=', '[', '{', ']', '}', '<', '>', '?'
 ]
+```
+
+> ImageFolder方式数据集加载（PyTorch）
+
+```python
+image_datasets = {
+    x: datasets.ImageFolder(
+            os.path.join(self.data_url, x),
+            self.data_transforms[x]
+        ) for x in ['train', 'val']
+    }
+data_loader_train = DataLoader(
+    self.image_datasets['train'], batch_size=32,
+    shuffle=True, num_workers=16, pin_memory=True
+)
+data_loader_val = DataLoader(
+    self.image_datasets['val'], batch_size=32,
+    shuffle=True, num_workers=16, pin_memory=True
+)
+
+dataloaders = {
+    'train': data_loader_train,
+    'val': data_loader_val,
+}
+
 ```
