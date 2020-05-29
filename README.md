@@ -20,7 +20,7 @@
   </tr>
 </table>
 
-> 
+> 如果做了模型请私信我，挂链接
 
 * [40w验证码数据集 大小1G](https://pan.baidu.com/s/1GLgRamvXCM0VVLfhkJzQqA) 密码:7tfs
 
