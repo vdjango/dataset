@@ -6,6 +6,20 @@
 
 ## 验证码数据集（原创）
 
+<table style="width:100%">
+  <tr>
+    <td>
+      <img src="2.jpeg">
+    </td>
+    <td align="center">
+        <img src="1.jpeg">
+    </td>
+    <td>
+      <img src="3.jpeg">
+    </td>
+  </tr>
+</table>
+
 > 
 
 * [40w验证码数据集 大小1G](https://pan.baidu.com/s/1GLgRamvXCM0VVLfhkJzQqA) 密码:7tfs
