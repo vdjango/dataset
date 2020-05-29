@@ -8,7 +8,7 @@
 
 > 
 
-* [40w验证码数据集 大小1.2G](https://pan.baidu.com/s/1GLgRamvXCM0VVLfhkJzQqA) 密码:7tfs
+* [40w验证码数据集 大小1G](https://pan.baidu.com/s/1GLgRamvXCM0VVLfhkJzQqA) 密码:7tfs
 
 | name | 标签合计 | 总数合计 |
 | :- | :- | :- |
