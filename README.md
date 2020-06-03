@@ -81,3 +81,9 @@ dataloaders = {
 }
 
 ```
+
+
+# 相关实现
+
+* [作者本人实现code 识别率50%](https://github.com/vdjango/DeepCaptcha)
+
